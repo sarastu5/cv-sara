@@ -1,0 +1,53 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 200px;
+  @media screen and (max-width: 900px) {
+    margin: 0px;
+  }
+}
+
+.intro {
+  display: flex;
+  background-color: lightgray;
+  flex: 0 0 200px;
+  padding: 20px;
+  align-items: center;
+}
+
+.img {
+  flex: 0 0 300px;
+}
+
+.profilepic {
+  width: 200px;
+  margin: 20px;
+  border-radius: 200px;
+}
+
+.header {
+  flex: 0 0 100px;
+  padding: 20px;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  @media screen and (max-width: 600px) {
+    flex-direction: column;
+  }
+}
+
+.sidebar {
+  flex: 0 0 300px;
+  padding: 20px;
+  background-color: lightsteelblue;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.main {
+  flex: 1 1 auto;
+  padding: 20px;
+  margin-top: 15px;
+}
